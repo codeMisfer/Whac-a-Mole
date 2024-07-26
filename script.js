@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
         createBlocks(); // Re-create blocks for a new game
         score = 0;
         scoreDisplay.textContent = score; // Update score display
-        timeLeft = 5; // Reset timer
+        timeLeft = 30; // Reset timer
         timeLeftDisplay.textContent = timeLeft;
         snakeClicked = false; // Reset snake click flag
         gameInterval = setInterval(() => { // Set up game timer
